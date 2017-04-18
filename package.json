@@ -1,0 +1,40 @@
+{
+  "name": "@warp-works/warpjs-persistence",
+  "version": "0.1.0",
+  "description": "WarpJS Persistence layer",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint:node": "eslint --fix --ignore-pattern='*.test.js' lib",
+    "lint:test": "eslint --fix --config='.eslintrc.test.json' 'lib/**/*.test.js'",
+    "lint": "npm run -s lint:node && npm run -s lint:test",
+    "test:unit": "mocha 'lib/**/*.unit.test.js'",
+    "test": "npm run -s test:unit",
+    "coverage:unit": "nyc --report-dir='reports/coverage-unit' npm run -s test:unit",
+    "coverage": "npm run -s coverage:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarpWorks/warpjs-persistence.git"
+  },
+  "keywords": [
+    "WarpJS",
+    "WarpWorks"
+  ],
+  "author": {
+    "name": "Hữu Ðà Trần",
+    "email": "HuuDa.Tran@quoininc.com",
+    "url": "https://www.quoininc.com/staff/huu-da-tran/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WarpWorks/warpjs-persistence/issues"
+  },
+  "homepage": "https://github.com/WarpWorks/warpjs-persistence#readme",
+  "devDependencies": {
+    "@quoin/eslint-config-quoin": "0.1.1",
+    "@quoin/node-test-helpers": "0.1.7",
+    "eslint": "3.19.0",
+    "mocha": "3.2.0",
+    "nyc": "10.2.0"
+  }
+}
