@@ -34,3 +34,8 @@ Updates the document `doc` in the collection `collectionName`.
 ### .aggregate(collectionName, collectionJoinKey, foreignCollection, foreignKey, aggregationOutputName, matchQuery)
 
 To document.
+
+### .makeBackup(outputFolder)
+
+Create a backup of the database and put the output in `outputFolder`. Returns a
+promise.

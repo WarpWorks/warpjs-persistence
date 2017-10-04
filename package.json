@@ -1,6 +1,6 @@
 {
   "name": "@warp-works/warpjs-persistence",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "WarpJS Persistence layer",
   "main": "lib/index.js",
   "scripts": {
@@ -33,14 +33,17 @@
   "devDependencies": {
     "@quoin/eslint-config-quoin": "latest",
     "@quoin/node-test-helpers": "latest",
-    "eslint": "4.4.1",
-    "eslint-plugin-html": "3.2.0",
+    "eslint": "4.8.0",
+    "eslint-plugin-html": "3.2.2",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-json": "1.2.0",
-    "eslint-plugin-node": "5.1.1",
+    "eslint-plugin-node": "5.2.0",
     "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-standard": "3.0.1",
-    "mocha": "3.5.0",
-    "nyc": "11.1.0"
+    "mocha": "3.5.3",
+    "nyc": "11.2.1"
+  },
+  "dependencies": {
+    "bluebird": "3.5.0"
   }
 }
