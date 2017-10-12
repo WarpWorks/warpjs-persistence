@@ -1,5 +1,9 @@
 # Releases
 
+## 0.1.3 - 2017-10-12
+
+- Updated mocha and fixed tests.
+
 ## 0.1.2 - 2017-10-03
 
 - Adding `.makeBackup()`.
