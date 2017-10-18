@@ -6,6 +6,8 @@ Abstract class to implement.
 
 ### .close(forceClose)
 
+Closes the database connection. Returns a promise.
+
 ### .databases
 
 Getter to list all databases available.
@@ -35,7 +37,7 @@ Updates the document `doc` in the collection `collectionName`.
 
 To document.
 
-### .makeBackup(outputFolder)
+### .makeBackup(outputFolder, config)
 
-Create a backup of the database and put the output in `outputFolder`. Returns a
-promise.
+Create a backup of the database and put the output in `outputFolder`. Gets the
+implementation configuration from `config`. Returns a promise.

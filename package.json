@@ -1,6 +1,6 @@
 {
   "name": "@warp-works/warpjs-persistence",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "WarpJS Persistence layer",
   "main": "lib/index.js",
   "scripts": {

@@ -1,5 +1,9 @@
 # Releases
 
+## 0.1.4 - 2017-10-18
+
+- Adding `config` param to `makeBackup()`.
+
 ## 0.1.3 - 2017-10-12
 
 - Updated mocha and fixed tests.
