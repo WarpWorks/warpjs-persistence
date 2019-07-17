@@ -1,5 +1,9 @@
 # Releases
 
+## 0.1.5 - 2019-07-17
+
+- Convert to async/await.
+
 ## 0.1.4 - 2017-10-18
 
 - Adding `config` param to `makeBackup()`.
