@@ -1,5 +1,13 @@
 # Releases
 
+## 2.0.1 - 2021-06-21
+
+- Merging into master branch and latest tag.
+
+## 1.0.0-rc.1 - 2021-06-16
+
+- Updating packages and node@14
+
 ## 0.1.5 - 2019-07-17
 
 - Convert to async/await.
